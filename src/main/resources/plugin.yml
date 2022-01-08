@@ -1,0 +1,13 @@
+name: Pinner
+version: '${project.version}'
+main: me.plugin.tonik152.pinner.Pinner
+api-version: 1.18
+authors: [ tonik152 ]
+
+commands:
+  mypins:
+    description: Open inventory with player pins
+    usage: /<command>
+  testpin:
+    description: Test out the pin saving
+    usage: /<command>
